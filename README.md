@@ -1,0 +1,2 @@
+## Comparative study of TF-IDF and DistilBERT LoRA fine tuning approaches
+First we apply TF-IDF and Support Vector Classifier sentiment analysis, then we use parameter-efficient fine tuning of DistilBERT for sentiment analysis; as can be expected, the latter method surpassed the former by a significant margin. Moreover, we ran a rank-variation loop on DistilBERT; this approach can be used to observe the greater ability of higher ranks to capture fine-tuning changes.
